@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+    <style>
+        body{
+            background-image:url(https://i.pinimg.com/originals/f0/39/b0/f039b0f2291a831ae151ea3556932384.jpg) ;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="status-bar">
+        
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i> <!--wifi icon-->
+        </div>
+        <div class="status-bar__column">
+            <span>18:43　　</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-battery-three-quarters"></i>
+            <span>80%</span>
+        </div>
+
+ </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+            <div class="find-icons__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+            <div class="find-icons__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+            <div class="find-icons__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="https://status4everyone.com/wp-content/uploads/2020/09/kxgfkpotbs-300x300.jpg"
+                class="user-component__avatar user-component__avatar--xl"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Draco Malfoy</h4>
+                <h6 class="user-component__subtitle">"I hate mudblood"</h6>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#Gryffindor_junior_openchat</h5>
+            <h6 class="open-post__hashtags">#Gryffindor#1st#find_friends</h6>
+            <div class="open-post__members">
+              <img src="https://mblogthumb-phinf.pstatic.net/20150327_244/nyx0426_1427436479820379rR_PNG/1503HPPP_%2829%29.png?type=w420" />
+              <span class="open-post__member-count">250 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://mblogthumb-phinf.pstatic.net/20150327_244/nyx0426_1427436479820379rR_PNG/1503HPPP_%2829%29.png?type=w420" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>125</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="open-post">
+            <div class="open-post__column">
+              <h5 class="open-post__title">#All_about_quidditch</h5>
+              <h6 class="open-post__hashtags">#quiddich#snitch#Nimbus2000</h6>
+              <div class="open-post__members">
+                <img src="https://post-phinf.pstatic.net/MjAxNzEwMTdfOTQg/MDAxNTA4MjEzMzcwMjg5.ONn6n98mDkS_6x53F3mxUfPfpzMNWT2ByW_ObhROheUg.8YW1icylK0Cl9LBkaU1THqM_RtzPi-a3lNaxNTsZLbIg.JPEG/mug_obj_150821337036689692.jpg?type=w1080" />
+                <span class="open-post__member-count">358 members</span>
+                <div class="divider"></div>
+                <span class="open-post__member-status">Active</span>
+              </div>
+            </div>
+            <div class="open-post__column">
+              <div class="open-post__photo">
+                <img src="https://post-phinf.pstatic.net/MjAxNzEwMTdfOTQg/MDAxNTA4MjEzMzcwMjg5.ONn6n98mDkS_6x53F3mxUfPfpzMNWT2ByW_ObhROheUg.8YW1icylK0Cl9LBkaU1THqM_RtzPi-a3lNaxNTsZLbIg.JPEG/mug_obj_150821337036689692.jpg?type=w1080" />
+                <div class="open-post__heart-count">
+                  <i class="fas fa-heart fa-xs"></i><span>267</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>화면이 너무 커요! 작게 줄여주세요</span>
+      </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

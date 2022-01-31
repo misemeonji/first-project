@@ -1,0 +1,19 @@
+#no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-image:url(https://pickywallpapers.com/img/2020/7/hogwarts-legacy-hd-wallpaper-background-2351-2388-hd-wallpapers.jpg);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+    color: white;
+  }
+  
+  @media screen and (max-width: 645px) {
+    #no-mobile {
+      display: none;
+    }
+  }

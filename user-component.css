@@ -1,0 +1,73 @@
+.user-component {
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar{
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, );
+}
+
+.user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
+  }
+
+  .user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+  }
+  
+  .user-component__title--not-bold {
+    font-weight: 400;
+  }
+  .user-component__text{
+      color:black;
+  }
+  .user-component__text{
+    font-size: 13px;
+   
+}
+  .user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.4);
+/*
+              <div class="user-component__text">
+                     <h9 class="user-component__title user-component__title--not-bold">
+                
+                Check your friend's birthday
+              </h9>
+              </div>
+              */
+
+   
+  }
+  
+  .user-component__time {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .friends-display-link{
+    opacity:0.5;
+  }
